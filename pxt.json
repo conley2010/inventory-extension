@@ -1,0 +1,31 @@
+{
+    "name": "Inventory Extension Example - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Inventory": "github:unsignedarduino/inventory#b3b1ae09a943929156dcb19e4b26c3dbc74989c9"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.44",
+        "tag": "v1.4.44",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/a22995c560b516a501328716333b8cc8caf7cc9c",
+        "target": "1.12.24",
+        "pxt": "6.12.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
